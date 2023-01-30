@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             // Change the audio element source
-            music_player.src = songs[i];
+            music_player.src = "resources/music/" + songs[i];
         }
 
         // Check if the player is selected
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Listen for the music ended event, to play the next audio file
             music_player.addEventListener('ended', next, false)
             
-            document.addEventListener("mousemove", function (event) {
+            document.addEventListener("click", function (event) {
               music_player.play();
             });
         }
