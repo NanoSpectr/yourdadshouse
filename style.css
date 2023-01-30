@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+#image {
+    max-height: 85vh;
+    object-fit: contain;
+    margin: auto;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d1000e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: auto;
+}
+
+button:hover {background-color: #ff0011}
+
+button:active {
+  background-color: #6b0007;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
