@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
     const numberOfImages = 6;
-    const numberOfGIFs = 7;
+    const numberOfGIFs = 8;
     const numberOfPNGs = 4;
-    const numberOfSongs = 19;
+    const numberOfSongs = 24;
 
     const randomImage = (function () {
         const image = document.getElementById('image');
